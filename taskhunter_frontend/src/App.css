@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+body {
+  background-color: #333333;
+  font-family: 'Montserrat', sans-serif;
+}
+a {
+  text-decoration: none !important;
+}
+div[id^=__lpform_] {
+  display: none !important;
+}
+.top{
+     position:fixed;
+     float:top;
+     width:100vw;
+     background: #252525;
+     display: inline-block;
+     white-space: nowrap;
+     height: 60px;
+     z-index: 99;
+     border-bottom: 1px #14CB14 solid;
+}
+.icon-holder{
+  width: 60px;
+  text-align:center;
+  display:inline-block;
+}
+.link-text-holder{
+  width: 210px;
+  display: inline-block;
+}
+.nav-link{
+     color:white;
+     vertical-align: top;
+}
+.nav-main-bar{
+    padding-left:0px;
+}
+.router-link-active {
+}
+
+.item:hover {
+     background-color:#ccc;
+}
+.item {
+     height:50px;
+     overflow:hidden;
+     color:#fff;
+     margin-top:10px;
+     margin-bottom:10px;
+     vertical-align: top;
+}
+.main{
+    padding-top: 75px;
+}
+.fas{
+  vertical-align: middle;
+  color: #14CB14;
+}
+.fas-white{
+  vertical-align: middle;
+  color: #FFFFFF;
+}
+.fas-black{
+  vertical-align: middle;
+  color: #000000;
+}
+.logo-text{
+  color:#FFFFFF;
+}
+.logo{
+  padding-top:10px;
+  margin-left:20px;
+  float: left;
+}
+.logged-in-user{
+  padding-top:15px;
+  padding-right:30px;
+  color:#FFFFFF;
+  float:right;
+}
+
+.create-button-strip{
+  padding-top:15px;
+  padding-right:20px;
+  color:#FFFFFF;
+  float:right;
+}
+@media screen and (min-width: 701px) {
+    .button-text {
+        margin-right:15px;
+    }
+    .title-form-column{
+      padding-left:50px;
+      padding-right:50px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .button-text {
+        display: none;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .show-on-mobile-block {
+        display: block;
+    }
+    .show-on-mobile-inline {
+        display: inline;
+    }
+     .show-on-mobile-inline-block {
+        display: inline-block;
+    }
+    .main-holder {
+        padding:0px;
+    }
+    .title-form-column{
+      padding-left:15px;
+      padding-right:15px;
+    }
+}
+
+.card-header{
+  background-color: #333333;
+}
+
+.tab-content{
+  background-color:  #252525;
+}
+
+.card {
+  border: 0px;
+  color: #FFFFFF;
+}
+
+.nav-tabs .nav-link {
+    color: #14CB14;
+    background-color: #333333;
+    border: 0px;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #FFFFFF;
+    background-color: #14CB14;
+    border: 1px solid #14CB14;
+}
+
+.make-white{
+  padding-top:30px;
+  color:#FFFFFF;
+}
+
+.card-header-tabs{
+  margin-left:0px;
+}
+.card-header{
+  padding-left:0px;
+}

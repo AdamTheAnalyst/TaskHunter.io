@@ -1,0 +1,17 @@
+.task-panel{
+	background-color: #252525;
+	color: white;
+	padding: 15px;
+	border: 1px solid #14CB14;
+}
+.task-panel-buttons{
+	color: white;
+	margin-top:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-align: center;
+}
+.submit-form-column{
+	text-align: right;
+	margin-top: 0px;
+}

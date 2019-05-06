@@ -1,0 +1,40 @@
+.login-panel{
+	background-color: #252525;
+	color: white;
+	padding: 15px;
+	border: 1px solid #14CB14;
+	text-align:center;
+	text-align: center;
+}
+
+.login-panel-buttons{
+	color: white;
+	margin-top:10px;
+	padding-top:2px;
+	padding-bottom:2px;
+	text-align: center;
+}
+
+.login-buttons{
+	min-width:100px;
+	margin:5px;
+}
+
+.login-table{
+	margin: 0px auto;
+	width: 60%;
+}
+
+.login-heading{
+	text-align: right;
+	color: #14CB14;
+	padding-right: 15px;
+}
+
+.login-value{
+	padding: 5px;
+}
+
+.login-form-input{
+	width:100% !important;
+}
