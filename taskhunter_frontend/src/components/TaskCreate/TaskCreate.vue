@@ -4,7 +4,7 @@
       <form autocomplete="off" data-lpignore=true>
         <div class="input-group mb-3">
           <div class="input-group-prepend">
-          <datetime v-model="task_due_date" type="date" data-lpignore=true :min-datetime="current_time" input-class="form-control" id="task_date_input" input-style="max-width:120px;text-align:center;background-color:#28a745;color:#FFFFFF;border:0px;border-top-right-radius: 0%;border-bottom-right-radius: 0%;cursor:pointer;"></datetime>
+          <datetime v-model="task_due_date" type="datetime" data-lpignore=true :min-datetime="current_time" input-class="form-control" id="task_date_input" input-style="max-width:200px;text-align:center;background-color:#28a745;color:#FFFFFF;border:0px;border-top-right-radius: 0%;border-bottom-right-radius: 0%;cursor:pointer;"></datetime>
           </div>
           <input type="text" v-model="task_title" data-lpignore=true class="form-control" placeholder="Create a new task..." aria-label="Create a new task..." id="task_title_input">
           <div class="input-group-append">
@@ -27,6 +27,8 @@ export default {
   name: 'taskcreate',
   data() {
     var now = new Date();
+    now.setHours(now.getHours() + Math.round(now.getMinutes()/60));
+    now.setMinutes(0);
     return {
       task_title: null,
       task_due_date: now.toISOString(),
