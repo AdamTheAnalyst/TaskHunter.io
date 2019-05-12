@@ -42,7 +42,7 @@ export default {
   components: {},
   mounted() {
     this.refreshTasks();
-    this.timer = setInterval(this.refreshTasks, 5000)
+    this.timer = setInterval(this.refreshTasks, 1000)
   },
   computed: {
     ...mapState([
