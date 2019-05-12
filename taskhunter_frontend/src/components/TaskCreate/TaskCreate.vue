@@ -48,6 +48,8 @@ export default {
       this.$router.push('/');
       
       var now = new Date();
+      now.setHours(now.getHours() + Math.round(now.getMinutes()/60));
+      now.setMinutes(0);
       this.task_title = null;
       this.task_due_date = now.toISOString();
     }
